@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "skills",
+  "collectionName": "skill",
   "info": {
-    "name": "Skills",
+    "name": "Skill",
     "description": ""
   },
   "options": {
@@ -29,6 +29,18 @@
       "type": "integer",
       "max": 10,
       "min": 0
+    },
+    "labels": {
+      "collection": "labels",
+      "via": "skill"
+    },
+    "experience": {
+      "model": "experiences",
+      "via": "skills"
+    },
+    "education": {
+      "model": "education",
+      "via": "skills"
     }
   }
 }

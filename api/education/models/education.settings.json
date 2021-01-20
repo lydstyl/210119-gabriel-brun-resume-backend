@@ -21,6 +21,14 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "labels": {
+      "via": "education",
+      "collection": "labels"
+    },
+    "skills": {
+      "via": "education",
+      "collection": "skills"
     }
   }
 }

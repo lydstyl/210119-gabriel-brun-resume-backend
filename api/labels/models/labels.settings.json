@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "labels",
   "info": {
-    "name": "Labels"
+    "name": "Label",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,6 +13,22 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "education": {
+      "model": "education",
+      "via": "labels"
+    },
+    "experience": {
+      "model": "experiences",
+      "via": "labels"
+    },
+    "interest": {
+      "model": "interests",
+      "via": "labels"
+    },
+    "skill": {
+      "via": "labels",
+      "model": "skills"
     }
   }
 }

@@ -14,21 +14,22 @@
     "name": {
       "type": "string"
     },
-    "education": {
-      "model": "education",
-      "via": "labels"
-    },
-    "experience": {
-      "model": "experiences",
-      "via": "labels"
-    },
-    "interest": {
-      "model": "interests",
-      "via": "labels"
-    },
-    "skill": {
+    "skills": {
+      "collection": "skills",
       "via": "labels",
-      "model": "skills"
+      "dominant": true
+    },
+    "educations": {
+      "via": "labels",
+      "collection": "education"
+    },
+    "experiences": {
+      "via": "labels",
+      "collection": "experiences"
+    },
+    "interests": {
+      "via": "labels",
+      "collection": "interests"
     }
   }
 }

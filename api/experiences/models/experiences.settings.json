@@ -27,12 +27,14 @@
       "type": "string"
     },
     "labels": {
-      "via": "experience",
-      "collection": "labels"
+      "collection": "labels",
+      "via": "experiences",
+      "dominant": true
     },
     "skills": {
-      "via": "experience",
-      "collection": "skills"
+      "collection": "skills",
+      "via": "experiences",
+      "dominant": true
     }
   }
 }

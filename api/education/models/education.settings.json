@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "educations",
   "info": {
-    "name": "Education"
+    "name": "Education",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -23,12 +24,14 @@
       "type": "richtext"
     },
     "labels": {
-      "via": "education",
-      "collection": "labels"
+      "collection": "labels",
+      "via": "educations",
+      "dominant": true
     },
     "skills": {
-      "via": "education",
-      "collection": "skills"
+      "collection": "skills",
+      "via": "educations",
+      "dominant": true
     }
   }
 }

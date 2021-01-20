@@ -31,16 +31,16 @@
       "min": 0
     },
     "labels": {
-      "collection": "labels",
-      "via": "skill"
+      "via": "skills",
+      "collection": "labels"
     },
-    "experience": {
-      "model": "experiences",
-      "via": "skills"
+    "educations": {
+      "via": "skills",
+      "collection": "education"
     },
-    "education": {
-      "model": "education",
-      "via": "skills"
+    "experiences": {
+      "via": "skills",
+      "collection": "experiences"
     }
   }
 }

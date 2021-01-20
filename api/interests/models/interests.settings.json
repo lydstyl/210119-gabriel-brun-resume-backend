@@ -15,8 +15,9 @@
       "type": "string"
     },
     "labels": {
-      "via": "interest",
-      "collection": "labels"
+      "collection": "labels",
+      "via": "interests",
+      "dominant": true
     }
   }
 }

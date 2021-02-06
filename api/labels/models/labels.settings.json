@@ -15,8 +15,8 @@
       "type": "string"
     },
     "skills": {
-      "collection": "skills",
       "via": "labels",
+      "collection": "skills",
       "dominant": true
     },
     "educations": {

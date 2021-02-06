@@ -29,8 +29,8 @@
       "dominant": true
     },
     "skills": {
-      "collection": "skills",
       "via": "educations",
+      "collection": "skills",
       "dominant": true
     }
   }

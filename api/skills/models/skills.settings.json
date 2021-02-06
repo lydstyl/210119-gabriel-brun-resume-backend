@@ -31,16 +31,21 @@
       "min": 0
     },
     "labels": {
-      "via": "skills",
-      "collection": "labels"
+      "collection": "labels",
+      "via": "skills"
     },
     "educations": {
-      "via": "skills",
-      "collection": "education"
+      "collection": "education",
+      "via": "skills"
     },
     "experiences": {
-      "via": "skills",
-      "collection": "experiences"
+      "collection": "experiences",
+      "via": "skills"
+    },
+    "goalScore": {
+      "type": "integer",
+      "max": 10,
+      "min": 0
     }
   }
 }

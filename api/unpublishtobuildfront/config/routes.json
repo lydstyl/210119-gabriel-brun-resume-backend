@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/unpublishtobuildfront",
+      "handler": "unpublishtobuildfront.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/unpublishtobuildfront",
+      "handler": "unpublishtobuildfront.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/unpublishtobuildfront",
+      "handler": "unpublishtobuildfront.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

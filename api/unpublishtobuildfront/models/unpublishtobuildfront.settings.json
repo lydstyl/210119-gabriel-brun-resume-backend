@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "unpublishtobuildfronts",
+  "info": {
+    "name": "unpublishtobuildfront"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "publishthenunpublishtobuild": {
+      "type": "string"
+    }
+  }
+}

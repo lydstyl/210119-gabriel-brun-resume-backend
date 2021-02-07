@@ -39,8 +39,8 @@
       "via": "skills"
     },
     "experiences": {
-      "collection": "experiences",
-      "via": "skills"
+      "via": "skills",
+      "collection": "experiences"
     },
     "goalScore": {
       "type": "integer",

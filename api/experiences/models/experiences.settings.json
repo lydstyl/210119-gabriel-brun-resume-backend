@@ -23,18 +23,18 @@
     "company": {
       "type": "string"
     },
-    "description": {
-      "type": "string"
-    },
     "labels": {
       "collection": "labels",
       "via": "experiences",
       "dominant": true
     },
     "skills": {
-      "via": "experiences",
       "collection": "skills",
+      "via": "experiences",
       "dominant": true
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

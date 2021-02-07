@@ -30,6 +30,10 @@
     "interests": {
       "via": "labels",
       "collection": "interests"
+    },
+    "certificats": {
+      "via": "labels",
+      "collection": "certificat"
     }
   }
 }

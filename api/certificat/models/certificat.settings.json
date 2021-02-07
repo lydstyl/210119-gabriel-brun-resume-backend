@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "certificats",
+  "info": {
+    "name": "Certificat"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true
+    },
+    "labels": {
+      "collection": "labels",
+      "via": "certificats",
+      "dominant": true
+    },
+    "url": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}

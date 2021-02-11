@@ -35,6 +35,16 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "shortdescription": {
+      "type": "text"
+    },
+    "projectname": {
+      "type": "string"
+    },
+    "tasks": {
+      "via": "experiences",
+      "collection": "task"
     }
   }
 }

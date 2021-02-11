@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "certificats",
   "info": {
-    "name": "Certificat"
+    "name": "Certificat",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -22,6 +23,9 @@
     "url": {
       "type": "string",
       "unique": true
+    },
+    "date": {
+      "type": "date"
     }
   }
 }

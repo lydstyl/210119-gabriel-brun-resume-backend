@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "name": "task",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "task": {
+      "type": "text"
+    },
+    "experiences": {
+      "collection": "experiences",
+      "via": "tasks",
+      "dominant": true
+    }
+  }
+}
